@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="998.64pt" height="425.52pt" viewBox="0 0 998.64 425.52" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-16T16:04:24.375659</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.7.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 425.52 
+L 998.64 425.52 
+L 998.64 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 283.455361 104.5764 
+Q 309.426282 104.5764 333.496546 104.5764 
+" clip-path="url(#p01bae83bc0)" style="fill: none; stroke: #67737b; stroke-width: 1.7; stroke-linecap: round"/>
+    <path d="M 327.896546 101.7764 
+L 333.496546 104.5764 
+L 327.896546 107.3764 
+z
+" clip-path="url(#p01bae83bc0)" style="fill: #67737b; stroke: #67737b; stroke-width: 1.7; stroke-linecap: round"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 574.924492 104.5764 
+Q 600.401011 104.5764 623.976872 104.5764 
+" clip-path="url(#p01bae83bc0)" style="fill: none; stroke: #67737b; stroke-width: 1.7; stroke-linecap: round"/>
+    <path d="M 618.376872 101.7764 
+L 623.976872 104.5764 
+L 618.376872 107.3764 
+z
+" clip-path="url(#p01bae83bc0)" style="fill: #67737b; stroke: #67737b; stroke-width: 1.7; stroke-linecap: round"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 811.375408 138.996038 
+Q 628.834949 113.384409 463.597613 190.69225 
+" clip-path="url(#p01bae83bc0)" style="fill: none; stroke: #67737b; stroke-width: 1.7; stroke-linecap: round"/>
+    <path d="M 469.85648 190.855277 
+L 463.597613 190.69225 
+L 467.483355 185.782972 
+z
+" clip-path="url(#p01bae83bc0)" style="fill: #67737b; stroke: #67737b; stroke-width: 1.7; stroke-linecap: round"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 579.829675 229.0896 
+Q 602.855351 229.0896 623.98037 229.0896 
+" clip-path="url(#p01bae83bc0)" style="fill: none; stroke: #67737b; stroke-width: 1.7; stroke-linecap: round"/>
+    <path d="M 618.38037 226.2896 
+L 623.98037 229.0896 
+L 618.38037 231.8896 
+z
+" clip-path="url(#p01bae83bc0)" style="fill: #67737b; stroke: #67737b; stroke-width: 1.7; stroke-linecap: round"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 791.914158 262.600017 
+Q 681.748393 314.052346 562.103137 310.845847 
+" clip-path="url(#p01bae83bc0)" style="fill: none; stroke: #67737b; stroke-width: 1.7; stroke-linecap: round"/>
+    <path d="M 567.626114 313.794868 
+L 562.103137 310.845847 
+L 567.77614 308.196878 
+z
+" clip-path="url(#p01bae83bc0)" style="fill: #67737b; stroke: #67737b; stroke-width: 1.7; stroke-linecap: round"/>
+   </g>
+   <g id="text_1">
+    <text style="fill: #20262b; font: 700 12px 'DejaVu Sans'; text-anchor: middle" x="499.32" y="32.36325" transform="rotate(-0 499.32 32.36325)">REFERENCE-STUDY COMPUTATIONAL FRAMEWORK (DE ARAUJO JUNIOR ET AL., 2025)</text>
+   </g>
+   <g id="patch_7">
+    <path d="M 40.04352 143.3592 
+L 277.53264 143.3592 
+Q 291.27168 143.3592 291.27168 137.64384 
+L 291.27168 71.50896 
+Q 291.27168 65.7936 277.53264 65.7936 
+L 40.04352 65.7936 
+Q 26.30448 65.7936 26.30448 71.50896 
+L 26.30448 137.64384 
+Q 26.30448 143.3592 40.04352 143.3592 
+z
+" clip-path="url(#p01bae83bc0)" style="fill: #f1f3f4; stroke: #879196; stroke-width: 1.45; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 341.32104 143.3592 
+L 568.99656 143.3592 
+Q 582.7356 143.3592 582.7356 137.64384 
+L 582.7356 71.50896 
+Q 582.7356 65.7936 568.99656 65.7936 
+L 341.32104 65.7936 
+Q 327.582 65.7936 327.582 71.50896 
+L 327.582 137.64384 
+Q 327.582 143.3592 341.32104 143.3592 
+z
+" clip-path="url(#p01bae83bc0)" style="fill: #f1f3f4; stroke: #879196; stroke-width: 1.45; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 631.8036 143.3592 
+L 937.98792 143.3592 
+Q 951.72696 143.3592 951.72696 137.64384 
+L 951.72696 71.50896 
+Q 951.72696 65.7936 937.98792 65.7936 
+L 631.8036 65.7936 
+Q 618.06456 65.7936 618.06456 71.50896 
+L 618.06456 137.64384 
+Q 618.06456 143.3592 631.8036 143.3592 
+z
+" clip-path="url(#p01bae83bc0)" style="fill: #f1f3f4; stroke: #879196; stroke-width: 1.45; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 341.32104 265.8312 
+L 568.99656 265.8312 
+Q 582.7356 265.8312 582.7356 260.11584 
+L 582.7356 198.06336 
+Q 582.7356 192.348 568.99656 192.348 
+L 341.32104 192.348 
+Q 327.582 192.348 327.582 198.06336 
+L 327.582 260.11584 
+Q 327.582 265.8312 341.32104 265.8312 
+z
+" clip-path="url(#p01bae83bc0)" style="fill: #f1f3f4; stroke: #879196; stroke-width: 1.45; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 631.8036 265.8312 
+L 937.98792 265.8312 
+Q 951.72696 265.8312 951.72696 260.11584 
+L 951.72696 198.06336 
+Q 951.72696 192.348 937.98792 192.348 
+L 631.8036 192.348 
+Q 618.06456 192.348 618.06456 198.06336 
+L 618.06456 260.11584 
+Q 618.06456 265.8312 631.8036 265.8312 
+z
+" clip-path="url(#p01bae83bc0)" style="fill: #f1f3f4; stroke: #879196; stroke-width: 1.45; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 341.32104 376.056 
+L 618.06456 376.056 
+Q 631.8036 376.056 631.8036 370.34064 
+L 631.8036 312.37056 
+Q 631.8036 306.6552 618.06456 306.6552 
+L 341.32104 306.6552 
+Q 327.582 306.6552 327.582 312.37056 
+L 327.582 370.34064 
+Q 327.582 376.056 341.32104 376.056 
+z
+" clip-path="url(#p01bae83bc0)" style="fill: #f1f3f4; stroke: #879196; stroke-width: 1.45; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_2">
+    <text style="fill: #67737b; font: 8.3px 'DejaVu Sans'; text-anchor: middle" x="499.32" y="404.473641" transform="rotate(-0 499.32 404.473641)">Redrawn evidence-level workflow from the publisher abstract and data statement. NOT a reproduction of its nine internal networks.</text>
+   </g>
+   <g id="text_3">
+    <text style="fill: #20262b; font: 700 10.6px 'DejaVu Sans'; text-anchor: middle" x="158.78808" y="100.561257" transform="rotate(-0 158.78808 100.561257)">PUBLIC POLYP DATASETS</text>
+   </g>
+   <g id="text_4">
+    <text style="fill: #67737b; font: 8.1px 'DejaVu Sans'" transform="translate(107.448635 119.08644)">Kvasir-SEG; CVC-ClinicDB</text>
+    <text style="fill: #67737b; font: 8.1px 'DejaVu Sans'" transform="translate(82.649346 127.848931)">ETIS-Larib; Synapse/EndoCV resource</text>
+   </g>
+   <g id="text_5">
+    <text style="fill: #20262b; font: 700 10.6px 'DejaVu Sans'; text-anchor: middle" x="455.1588" y="100.561257" transform="rotate(-0 455.1588 100.561257)">DATASET COMBINATIONS</text>
+   </g>
+   <g id="text_6">
+    <text style="fill: #67737b; font: 8.1px 'DejaVu Sans'" transform="translate(383.404823 119.08644)">Single and merged source datasets</text>
+    <text style="fill: #67737b; font: 8.1px 'DejaVu Sans'" transform="translate(381.404503 127.848931)">(per published experimental design)</text>
+   </g>
+   <g id="text_7">
+    <text style="fill: #20262b; font: 700 10.6px 'DejaVu Sans'; text-anchor: middle" x="784.89576" y="100.561257" transform="rotate(-0 784.89576 100.561257)">NINE SEGMENTATION ALGORITHMS</text>
+   </g>
+   <g id="text_8">
+    <text style="fill: #67737b; font: 8.1px 'DejaVu Sans'" transform="translate(701.130369 119.08644)">Independent model-training comparisons</text>
+    <text style="fill: #67737b; font: 8.1px 'DejaVu Sans'" transform="translate(701.190487 127.848931)">(architecture-specific details not verified)</text>
+   </g>
+   <g id="text_9">
+    <text style="fill: #20262b; font: 700 10.3px 'DejaVu Sans'; text-anchor: middle" x="455.1588" y="225.399916" transform="rotate(-0 455.1588 225.399916)">TRAINED PREDICTORS</text>
+   </g>
+   <g id="text_10">
+    <text style="fill: #67737b; font: 7.8px 'DejaVu Sans'" transform="translate(390.861816 242.699351)">One trained model per algorithm</text>
+    <text style="fill: #67737b; font: 7.8px 'DejaVu Sans'" transform="translate(404.727534 251.137306)">and dataset configuration</text>
+   </g>
+   <g id="text_11">
+    <text style="fill: #20262b; font: 700 10.6px 'DejaVu Sans'; text-anchor: middle" x="784.89576" y="225.482697" transform="rotate(-0 784.89576 225.482697)">PIXEL-LEVEL SEGMENTATION</text>
+   </g>
+   <g id="text_12">
+    <text style="fill: #67737b; font: 8.1px 'DejaVu Sans'; text-anchor: middle" x="784.89576" y="247.00111" transform="rotate(-0 784.89576 247.00111)">Predicted polyp masks vs. reference masks</text>
+   </g>
+   <g id="text_13">
+    <text style="fill: #20262b; font: 700 10.3px 'DejaVu Sans'; text-anchor: middle" x="479.6928" y="338.074156" transform="rotate(-0 479.6928 338.074156)">EVALUATION / COMPARISON</text>
+   </g>
+   <g id="text_14">
+    <text style="fill: #67737b; font: 7.8px 'DejaVu Sans'" transform="translate(440.564831 353.985575)">Dice coefficient, IoU</text>
+    <text style="fill: #67737b; font: 7.8px 'DejaVu Sans'" transform="translate(422.409722 362.42353)">Effect of dataset composition</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p01bae83bc0">
+   <rect x="8.64" y="8.64" width="981.36" height="408.24"/>
+  </clipPath>
+ </defs>
+</svg>

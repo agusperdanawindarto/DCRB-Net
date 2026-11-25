@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1032.48pt" height="438.48pt" viewBox="0 0 1032.48 438.48" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-16T16:04:22.943061</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.7.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 438.48 
+L 1032.48 438.48 
+L 1032.48 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 299.669845 110.791283 
+Q 324.876145 126.576842 348.471598 141.353602 
+" clip-path="url(#p34ec3c2446)" style="fill: none; stroke: #67737b; stroke-width: 1.7; stroke-linecap: round"/>
+    <path d="M 345.211623 136.008271 
+L 348.471598 141.353602 
+L 342.239349 140.754383 
+z
+" clip-path="url(#p34ec3c2446)" style="fill: #67737b; stroke: #67737b; stroke-width: 1.7; stroke-linecap: round"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 299.172314 221.854633 
+Q 324.87374 187.651411 349.433378 154.967669 
+" clip-path="url(#p34ec3c2446)" style="fill: none; stroke: #67737b; stroke-width: 1.7; stroke-linecap: round"/>
+    <path d="M 343.830815 157.762536 
+L 349.433378 154.967669 
+L 348.307734 161.12664 
+z
+" clip-path="url(#p34ec3c2446)" style="fill: #67737b; stroke: #67737b; stroke-width: 1.7; stroke-linecap: round"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 627.878044 147.636 
+Q 656.334358 147.636 682.554605 147.636 
+" clip-path="url(#p34ec3c2446)" style="fill: none; stroke: #107f84; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 676.954605 144.836 
+L 682.554605 147.636 
+L 676.954605 150.436 
+z
+" clip-path="url(#p34ec3c2446)" style="fill: #107f84; stroke: #107f84; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 325.353525 332.964 
+Q 354.825267 332.964 382.396351 332.964 
+" clip-path="url(#p34ec3c2446)" style="fill: none; stroke: #67737b; stroke-width: 1.7; stroke-linecap: round"/>
+    <path d="M 376.796351 330.164 
+L 382.396351 332.964 
+L 376.796351 335.764 
+z
+" clip-path="url(#p34ec3c2446)" style="fill: #67737b; stroke: #67737b; stroke-width: 1.7; stroke-linecap: round"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 647.171801 332.964 
+Q 679.687573 332.964 710.302686 332.964 
+" clip-path="url(#p34ec3c2446)" style="fill: none; stroke: #67737b; stroke-width: 1.7; stroke-linecap: round"/>
+    <path d="M 704.702686 330.164 
+L 710.302686 332.964 
+L 704.702686 335.764 
+z
+" clip-path="url(#p34ec3c2446)" style="fill: #67737b; stroke: #67737b; stroke-width: 1.7; stroke-linecap: round"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 810.648 191.75814 
+Q 810.648 240.301684 810.648 286.94457 
+" clip-path="url(#p34ec3c2446)" style="fill: none; stroke: #107f84; stroke-width: 1.7; stroke-linecap: round"/>
+    <path d="M 813.448 281.34457 
+L 810.648 286.94457 
+L 807.848 281.34457 
+z
+" clip-path="url(#p34ec3c2446)" style="fill: #107f84; stroke: #107f84; stroke-width: 1.7; stroke-linecap: round"/>
+   </g>
+   <g id="text_1">
+    <text style="fill: #20262b; font: 700 12px 'DejaVu Sans'; text-anchor: middle" x="516.24" y="33.01125" transform="rotate(-0 516.24 33.01125)">RESEARCH FRAMEWORK: FROM DATASET COMBINATIONS TO RELIABILITY-CALIBRATED BOUNDARIES</text>
+   </g>
+   <g id="patch_8">
+    <path d="M 48.2328 147.636 
+L 293.9112 147.636 
+Q 308.124 147.636 308.124 141.7392 
+L 308.124 77.7168 
+Q 308.124 71.82 293.9112 71.82 
+L 48.2328 71.82 
+Q 34.02 71.82 34.02 77.7168 
+L 34.02 141.7392 
+Q 34.02 147.636 48.2328 147.636 
+z
+" clip-path="url(#p34ec3c2446)" style="fill: #f1f3f4; stroke: #879196; stroke-width: 1.45; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 48.2328 261.36 
+L 293.9112 261.36 
+Q 308.124 261.36 308.124 255.4632 
+L 308.124 191.4408 
+Q 308.124 185.544 293.9112 185.544 
+L 48.2328 185.544 
+Q 34.02 185.544 34.02 191.4408 
+L 34.02 255.4632 
+Q 34.02 261.36 48.2328 261.36 
+z
+" clip-path="url(#p34ec3c2446)" style="fill: #f1f3f4; stroke: #879196; stroke-width: 1.45; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 355.8384 193.968 
+L 621.8208 193.968 
+Q 636.0336 193.968 636.0336 188.0712 
+L 636.0336 107.2008 
+Q 636.0336 101.304 621.8208 101.304 
+L 355.8384 101.304 
+Q 341.6256 101.304 341.6256 107.2008 
+L 341.6256 188.0712 
+Q 341.6256 193.968 355.8384 193.968 
+z
+" clip-path="url(#p34ec3c2446)" style="fill: #f1f3f4; stroke: #879196; stroke-width: 1.45; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 690.8544 193.968 
+L 966.9888 193.968 
+Q 981.2016 193.968 981.2016 188.0712 
+L 981.2016 107.2008 
+Q 981.2016 101.304 966.9888 101.304 
+L 690.8544 101.304 
+Q 676.6416 101.304 676.6416 107.2008 
+L 676.6416 188.0712 
+Q 676.6416 193.968 690.8544 193.968 
+z
+" clip-path="url(#p34ec3c2446)" style="fill: #dcf1ee; stroke: #107f84; stroke-width: 1.45; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 63.4608 375.084 
+L 314.2152 375.084 
+Q 328.428 375.084 328.428 369.1872 
+L 328.428 296.7408 
+Q 328.428 290.844 314.2152 290.844 
+L 63.4608 290.844 
+Q 49.248 290.844 49.248 296.7408 
+L 49.248 369.1872 
+Q 49.248 375.084 63.4608 375.084 
+z
+" clip-path="url(#p34ec3c2446)" style="fill: #f1f3f4; stroke: #879196; stroke-width: 1.45; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 390.3552 375.084 
+L 641.1096 375.084 
+Q 655.3224 375.084 655.3224 369.1872 
+L 655.3224 296.7408 
+Q 655.3224 290.844 641.1096 290.844 
+L 390.3552 290.844 
+Q 376.1424 290.844 376.1424 296.7408 
+L 376.1424 369.1872 
+Q 376.1424 375.084 390.3552 375.084 
+z
+" clip-path="url(#p34ec3c2446)" style="fill: #f1f3f4; stroke: #879196; stroke-width: 1.45; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 718.2648 375.084 
+L 969.0192 375.084 
+Q 983.232 375.084 983.232 369.1872 
+L 983.232 296.7408 
+Q 983.232 290.844 969.0192 290.844 
+L 718.2648 290.844 
+Q 704.052 290.844 704.052 296.7408 
+L 704.052 369.1872 
+Q 704.052 375.084 718.2648 375.084 
+z
+" clip-path="url(#p34ec3c2446)" style="fill: #f1f3f4; stroke: #879196; stroke-width: 1.45; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_2">
+    <text style="fill: #67737b; font: 8.7px 'DejaVu Sans'; text-anchor: middle" x="516.24" y="412.023056" transform="rotate(-0 516.24 412.023056)">Original conceptual diagram; study branches represent evidence roles, not copied publisher artwork.</text>
+   </g>
+   <g id="text_3">
+    <text style="fill: #20262b; font: 700 11px 'DejaVu Sans'; text-anchor: middle" x="171.072" y="106.024112" transform="rotate(-0 171.072 106.024112)">PRIMARY STUDY (2025)</text>
+   </g>
+   <g id="text_4">
+    <text style="fill: #67737b; font: 8.5px 'DejaVu Sans'; text-anchor: middle" x="171.072" y="128.247549" transform="rotate(-0 171.072 128.247549)">9 algorithms x dataset combinations</text>
+   </g>
+   <g id="text_5">
+    <text style="fill: #20262b; font: 700 10.5px 'DejaVu Sans'; text-anchor: middle" x="171.072" y="219.610144" transform="rotate(-0 171.072 219.610144)">COMPANION STUDY (2024)</text>
+   </g>
+   <g id="text_6">
+    <text style="fill: #67737b; font: 8px 'DejaVu Sans'; text-anchor: middle" x="171.072" y="241.83358" transform="rotate(-0 171.072 241.83358)">Dual-mode CNN; PolypGen + specular control</text>
+   </g>
+   <g id="text_7">
+    <text style="fill: #20262b; font: 700 11px 'DejaVu Sans'; text-anchor: middle" x="488.8296" y="142.247312" transform="rotate(-0 488.8296 142.247312)">RESEARCH GAP</text>
+   </g>
+   <g id="text_8">
+    <text style="fill: #67737b; font: 8.5px 'DejaVu Sans'" transform="translate(395.064639 165.601465)">Dataset pooling does not explicitly calibrate</text>
+    <text style="fill: #67737b; font: 8.5px 'DejaVu Sans'" transform="translate(410.323467 174.796672)">source-stability of boundary features</text>
+   </g>
+   <g id="text_9">
+    <text style="fill: #107f84; font: 700 11px 'DejaVu Sans'; text-anchor: middle" x="828.9216" y="142.247312" transform="rotate(-0 828.9216 142.247312)">DCRB-NET (PROPOSED)</text>
+   </g>
+   <g id="text_10">
+    <text style="fill: #67737b; font: 8.5px 'DejaVu Sans'" transform="translate(732.056131 165.601465)">Source-statistic dispersion + local agreement</text>
+    <text style="fill: #67737b; font: 8.5px 'DejaVu Sans'" transform="translate(748.680272 174.796672)">→ spatial reliability-guided skip fusion</text>
+   </g>
+   <g id="text_11">
+    <text style="fill: #20262b; font: 700 10.1px 'DejaVu Sans'; text-anchor: middle" x="188.838" y="328.169369" transform="rotate(-0 188.838 328.169369)">SOURCES &amp; HELD-OUT TEST</text>
+   </g>
+   <g id="text_12">
+    <text style="fill: #67737b; font: 7.6px 'DejaVu Sans'" transform="translate(115.194594 349.146167)">Kvasir-SEG + CVC-ClinicDB for training</text>
+    <text style="fill: #67737b; font: 7.6px 'DejaVu Sans'" transform="translate(114.527812 357.367763)">ETIS / PolypGen for external evaluation</text>
+   </g>
+   <g id="text_13">
+    <text style="fill: #20262b; font: 700 10.2px 'DejaVu Sans'; text-anchor: middle" x="515.7324" y="328.196962" transform="rotate(-0 515.7324 328.196962)">MATCHED COMPARISONS</text>
+   </g>
+   <g id="text_14">
+    <text style="fill: #67737b; font: 7.7px 'DejaVu Sans'" transform="translate(439.726181 349.119671)">Single-source U-Net; pooled-data U-Net</text>
+    <text style="fill: #67737b; font: 7.7px 'DejaVu Sans'" transform="translate(433.686494 357.449447)">DCRB-Net; literature reproduction pending</text>
+   </g>
+   <g id="text_15">
+    <text style="fill: #20262b; font: 700 10.1px 'DejaVu Sans'; text-anchor: middle" x="843.642" y="328.169369" transform="rotate(-0 843.642 328.169369)">FALSIFIABLE EVIDENCE</text>
+   </g>
+   <g id="text_16">
+    <text style="fill: #67737b; font: 7.6px 'DejaVu Sans'" transform="translate(788.595437 349.146167)">Dice/IoU + boundary metrics</text>
+    <text style="fill: #67737b; font: 7.6px 'DejaVu Sans'" transform="translate(764.873344 357.367763)">Ablations; seeds; compute; leakage audit</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p34ec3c2446">
+   <rect x="8.64" y="8.64" width="1015.2" height="421.2"/>
+  </clipPath>
+ </defs>
+</svg>

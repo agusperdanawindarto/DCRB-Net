@@ -75,6 +75,84 @@ Compared with pooled U-Net, DCRB-Net improves mean external Dice by **4.29 perce
 
 Full-precision data: [per-seed CSV](results/per_seed.csv), [aggregate CSV](results/aggregate.csv), [all metrics JSON](results/DCRB_FINAL_AGGREGATE_9_RUNS.json), and [run provenance](results/run_index.json).
 
+## Full per-seed evaluation
+
+| Model | Seed | Validation Dice (%) | Validation IoU (%) | ETIS Dice (%) | ETIS IoU (%) |
+|---|---:|---:|---:|---:|---:|
+| U-Net Kvasir-only | 42 | 78.96 | 68.65 | 40.00 | 32.01 |
+| U-Net Kvasir-only | 123 | 80.55 | 70.55 | 39.72 | 31.68 |
+| U-Net Kvasir-only | 2025 | 80.32 | 70.32 | 37.86 | 29.61 |
+| U-Net pooled | 42 | 80.57 | 70.58 | 39.20 | 30.95 |
+| U-Net pooled | 123 | 80.79 | 70.84 | 36.63 | 27.96 |
+| U-Net pooled | 2025 | 81.74 | 72.07 | 38.80 | 30.97 |
+| DCRB-Net pooled | 42 | 83.36 | 74.54 | 47.03 | 39.25 |
+| DCRB-Net pooled | 123 | 83.69 | 74.87 | 40.50 | 32.78 |
+| DCRB-Net pooled | 2025 | 83.51 | 74.66 | 39.98 | 32.34 |
+
+Each value is a mean over the corresponding validation or external records. The pooled validation comparisons share the same 323 records; the Kvasir-only validation results use 200 records. The external comparison uses identical 196 ETIS records for every run.
+
+## Visual evidence and figure guide
+
+All nine figures below are included in PNG and SVG format; the six numerical plots are generated from recorded experimental outputs. The three method diagrams are original study schematics, not measured performance. Their original filenames predate the manuscript's final figure numbering.
+
+### A. Research framework and architecture (manuscript Figs. 2–4)
+
+![Research framework](figures/Fig1_Research_Framework_DCRB.png)
+
+**Manuscript Fig. 2 — Research framework.** The principal and companion studies motivate the research gap, followed by proposed reliability-guided fusion, controlled experiments and external evaluation. PolypGen, boundary metrics, ablations and efficiency appearing in this planning diagram are proposed extensions, not completed results. [SVG](figures/Fig1_Research_Framework_DCRB.svg).
+
+![Primary reference pipeline](figures/Fig2_Primary_Reference_Study_Pipeline.png)
+
+**Manuscript Fig. 3 — Primary reference pipeline.** Conceptual redrawing of the reference study's dataset-combination and algorithm-comparison process. This is not a reconstruction of its individual networks or an executed nine-algorithm reproduction. [SVG](figures/Fig2_Primary_Reference_Study_Pipeline.svg).
+
+![DCRB-Net architecture](figures/Fig3_Proposed_DCRB_Net_Architecture.png)
+
+**Manuscript Fig. 4 — Proposed DCRB-Net.** Encoder–decoder with three source-statistic-calibrated ReliabilityBoundarySkip modules, segmentation and auxiliary edge heads, and training-only source EMA updates. [SVG](figures/Fig3_Proposed_DCRB_Net_Architecture.svg).
+
+Manuscript Fig. 1 (dataset examples) is retained in the local research archive. It contains original medical-image and annotation pixels; redistribution permissions for these examples have not yet been documented. No private CVC masks or raw dataset images are redistributed here.
+
+### B. Quantitative results
+
+**External comparison.** The mean ± sample SD chart shown in the verified-results section compares Dice and IoU on identical ETIS records. [PNG](figures/etis_comparison.png) · [SVG](figures/etis_comparison.svg).
+
+![External scores per seed](figures/etis_per_seed.png)
+
+**External performance across seeds.** DCRB-Net exceeds pooled U-Net in both overlap metrics for each seed; seed 42 has the strongest DCRB-Net external result. Lines connect categorical seed labels for readability, not a temporal trend. [SVG](figures/etis_per_seed.svg).
+
+![Pooled validation learning curves](figures/pooled_validation_curves.png)
+
+**Validation learning curves.** Epoch-wise mean ± sample SD across three seeds on the same 323 pooled validation records. The band represents seed dispersion, not a confidence interval. Checkpoint selection is based on validation Dice, not ETIS. [SVG](figures/pooled_validation_curves.svg).
+
+![Training objective curves](figures/training_loss_by_model.png)
+
+**Training objective trajectories.** All nine histories are shown in three model-specific panels. The proposed loss includes edge supervision and intermittent consistency regularization; its absolute training objective is not directly comparable to the baseline objective. [SVG](figures/training_loss_by_model.svg).
+
+![ETIS per-image score distributions](figures/etis_per_image_distribution.png)
+
+**External per-record distributions.** Boxplots use each ETIS record's average score over three training seeds (196 records per model); markers show means and outliers. This illustrates score heterogeneity rather than assuming independent patients. [SVG](figures/etis_per_image_distribution.svg).
+
+![Paired external score differences](figures/etis_paired_differences.png)
+
+**Paired external improvements and failures.** Seed-averaged DCRB-Net minus pooled U-Net for the same ETIS records: Dice improves on 128, worsens on 63 and ties on 5; IoU improves on 131, worsens on 60 and ties on 5 (numerical tie tolerance 1e-9 percentage points). These are descriptive paired differences, not significance tests. [SVG](figures/etis_paired_differences.svg).
+
+### C. Duplicate-image sensitivity
+
+Three ETIS image pairs share exact image hashes but have different annotations. The primary evaluation keeps all 196 records as originally evaluated. A supplementary sensitivity analysis averages annotation-specific scores within each identical image hash and then weights all 193 distinct hashes equally.
+
+| Model | Dice, 196 records (%) | Dice, 193 hashes (%) | IoU, 196 records (%) | IoU, 193 hashes (%) |
+|---|---:|---:|---:|---:|
+| U-Net Kvasir-only | 39.19 | 39.08 | 31.10 | 31.08 |
+| U-Net pooled | 38.21 | 37.75 | 29.96 | 29.60 |
+| DCRB-Net pooled | 42.50 | 42.01 | 34.79 | 34.38 |
+
+The descriptive ranking remains unchanged after equal weighting by unique image hash. This does not establish patient independence or statistical significance. See [duplicate audit](data_audit/ETIS_DUPLICATE_LABEL_AUDIT.md), [per-seed sensitivity CSV](results/etis_duplicate_sensitivity.csv), and [descriptive summary JSON](results/etis_descriptive_summary.json).
+
+### D. Qualitative segmentation evidence — pending
+
+The verified run artifacts contain per-image Dice and IoU but no exported prediction masks or contour overlays. Actual original-image/ground-truth/prediction panels require inference using the validation-selected checkpoints and authorized data access; no synthetic or illustrative masks are substituted. Boundary F-score, surface distances, ablations, matched contemporary comparators and computational efficiency remain unevaluated. These limits are retained explicitly for manuscript preparation.
+
+To regenerate the additional evaluation plots and sensitivity analysis, run the script [plot_extended_results.py](scripts/plot_extended_results.py).
+
 ## Repository layout and reproducibility
 
 - `notebooks/`: nine exact executed-configuration notebooks and kernel metadata plus the preserved reference notebook.

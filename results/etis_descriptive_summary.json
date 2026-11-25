@@ -1,0 +1,37 @@
+{
+  "duplicate_sensitivity": {
+    "UNet_Kvasir_only": {
+      "dice_196": 0.3919162671707139,
+      "dice_193_grouped": 0.39077296686020374,
+      "iou_196": 0.3109953295378682,
+      "iou_193_grouped": 0.31075302308679664
+    },
+    "UNet_combined": {
+      "dice_196": 0.3820962689003768,
+      "dice_193_grouped": 0.37753393546573377,
+      "iou_196": 0.2996264653351643,
+      "iou_193_grouped": 0.2959535724329005
+    },
+    "DCRBNet_combined": {
+      "dice_196": 0.425043874665651,
+      "dice_193_grouped": 0.4200739572917676,
+      "iou_196": 0.34790194232455035,
+      "iou_193_grouped": 0.3438258939066011
+    }
+  },
+  "paired_differences": {
+    "dice": {
+      "mean_difference_pp": 4.294760576527424,
+      "improved_records": 128,
+      "worse_records": 63,
+      "tied_records": 5
+    },
+    "iou": {
+      "mean_difference_pp": 4.827547698938605,
+      "improved_records": 131,
+      "worse_records": 60,
+      "tied_records": 5
+    }
+  },
+  "interpretation": "Descriptive only; no inferential significance or patient independence claimed."
+}
