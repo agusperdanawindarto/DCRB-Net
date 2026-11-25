@@ -1,0 +1,19 @@
+{
+  "id": "agusperdana/dcrb-net-unet-kvasir-seed42-v3-private",
+  "title": "dcrb net unet kvasir seed42 v3 private",
+  "code_file": "DCRB_Kaggle_UNet_Kvasir_seed42.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": false,
+  "machine_shape": "NvidiaTeslaT4",
+  "dataset_sources": [
+    "ipythonx/kvasirseg",
+    "doansang/cvc-clinicdb",
+    "nguyenvoquocduong/etis-laribpolypdb",
+    "agusperdana/dcrb-cvc-masks-research-private"
+  ],
+  "competition_sources": [],
+  "kernel_sources": []
+}

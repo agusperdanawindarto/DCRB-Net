@@ -1,0 +1,13 @@
+{
+  "history.jsonl": "4d62d55d16f739697c7d7012debc5ab2aa60ee8d3d6566f7da4310c7391ef1f7",
+  "dataset_manifest.csv": "6aff0c28ae7326b6d60f328328ba7dc64d7ca1c80af18627c5a30feb99cb54ca",
+  "run_metrics.json": "689874aa30b1b96911a436c3fcfabf65f865ce91109d5770872d57eeafb1ad2a",
+  "original_source_manifest.csv": "bf30b3e1e63b7c2c22e8d0270cebda5839eb309be5e7542d8b28ba7df09804ee",
+  "checkpoint_latest.pt": "413611e384b1f420928a5756f3847bfd6767048cfead09b875517d86bc02bddb",
+  "full_sha256_preflight.json": "2c96fdfb579c49468b40f026d6daa81169bf34a91e1338442390f8d9a9888284",
+  "external_test_per_image.csv": "46f19a65facf3a5ea5f3fa0b51901059dbc16da5ea83107fd3766c1a367d7af4",
+  "checkpoint_best.pt": "2839a97011c20cb4d1774b0a4093043955acc68318f7a88320528d2d17e1b9dc",
+  "validation_per_image.csv": "97270a64e480f5844b2ce0f0697de0cbe4e73357fa688d44ea28cb33befa0aab",
+  "run_config.json": "b04e2527412d6fed4fc396007e5aaf8915d970f666086261a89096ca4195427c",
+  "kaggle_verified_file_mapping.csv": "a6de62ff688c2b60fff53dd15a8e7755b8f1f7c5da5cb564bf5d82f58043b4df"
+}

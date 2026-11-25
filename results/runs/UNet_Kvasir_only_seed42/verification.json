@@ -1,0 +1,40 @@
+{
+  "status": "INDEPENDENT_LOCAL_ARTIFACT_VERIFICATION_PASS",
+  "run": "UNet_Kvasir_only_seed42",
+  "kernel": "agusperdana/dcrb-net-unet-kvasir-seed42-v3-private",
+  "kaggle_kernel_status": "COMPLETE",
+  "source_manifest_sha256": "bf30b3e1e63b7c2c22e8d0270cebda5839eb309be5e7542d8b28ba7df09804ee",
+  "local_verified_file_count": 11,
+  "local_verified_files": [
+    "external_test_per_image.csv",
+    "validation_per_image.csv",
+    "checkpoint_latest.pt",
+    "run_config.json",
+    "kaggle_verified_file_mapping.csv",
+    "checkpoint_best.pt",
+    "dataset_manifest.csv",
+    "original_source_manifest.csv",
+    "history.jsonl",
+    "full_sha256_preflight.json",
+    "run_metrics.json"
+  ],
+  "checkpoint_best_sha256": "9c451d7e7bb6eb17e92a83ab9248696c7530f7458c8e64ab187bc1a94ad570be",
+  "checkpoint_latest_sha256": "6c8d4ee2e248ebe2e9b27b30c4971994c55791d2d8125a42592743df7ab71eff",
+  "kaggle_log_sha256": "9da01d7c52591b3df102170104a94c570f06a3fe7cc37c6585883330dc44a969",
+  "preflight_pairs": 1808,
+  "gpu": "Tesla T4",
+  "epochs_completed": 60,
+  "best_epoch": 57,
+  "best_validation_dice_history": 0.7896485169093009,
+  "metrics": {
+    "run": "UNet_Kvasir_only_seed42",
+    "seed": 42,
+    "validation_images": 200,
+    "validation_mean_dice": 0.7896485169093009,
+    "validation_mean_iou": 0.6864674751740765,
+    "external_test_images": 196,
+    "external_mean_dice": 0.3999552848623772,
+    "external_mean_iou": 0.3201174442078653
+  },
+  "not_yet_completed_configs": 8
+}

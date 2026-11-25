@@ -1,0 +1,10 @@
+{
+  "run": "UNet_combined_seed2025",
+  "seed": 2025,
+  "validation_images": 323,
+  "validation_mean_dice": 0.8173939004024968,
+  "validation_mean_iou": 0.7207083414759174,
+  "external_test_images": 196,
+  "external_mean_dice": 0.38804331840646594,
+  "external_mean_iou": 0.30973613309421993
+}

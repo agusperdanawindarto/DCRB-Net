@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "kernel": "agusperdana/dcrb-unet-combined-seed42-private",
+  "run": "UNet_combined_seed42",
+  "verified_files": 11,
+  "sha256_verified": true,
+  "verified_pairs": 1808,
+  "epochs": 60,
+  "best_epoch": 60,
+  "metrics": {
+    "run": "UNet_combined_seed42",
+    "seed": 42,
+    "validation_images": 323,
+    "validation_mean_dice": 0.8057309411828725,
+    "validation_mean_iou": 0.7057547640429555,
+    "external_test_images": 196,
+    "external_mean_dice": 0.3919815750374916,
+    "external_mean_iou": 0.3095369999788009
+  },
+  "source_manifest_sha256": "bf30b3e1e63b7c2c22e8d0270cebda5839eb309be5e7542d8b28ba7df09804ee",
+  "gpu": "Tesla T4",
+  "cuda": "13.0",
+  "source_notebook_sha256_verified": true,
+  "external_test_excluded_from_training_and_selection": true
+}

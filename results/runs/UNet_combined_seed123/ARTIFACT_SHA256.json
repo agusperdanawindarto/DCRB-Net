@@ -1,0 +1,13 @@
+{
+  "original_source_manifest.csv": "bf30b3e1e63b7c2c22e8d0270cebda5839eb309be5e7542d8b28ba7df09804ee",
+  "run_config.json": "2bbd5f46d517e4eec8f1586fdd15729bc2ec6b394cbce020240670f8f584f9ac",
+  "validation_per_image.csv": "adf5940d55545daa617f2c64cad2ffd5ba4efd3fd318eaf3f403a240027c1e64",
+  "history.jsonl": "40c4cb49f69dec3ca31c93e8c3d1242d281a047fd387d8dcb9cf0ba0b7b6dd09",
+  "checkpoint_best.pt": "2760f779e4d88fdc16dfe1ad6eccb0a2f81684f8987b7c5bee3e1fa8d1f2912f",
+  "kaggle_verified_file_mapping.csv": "a6de62ff688c2b60fff53dd15a8e7755b8f1f7c5da5cb564bf5d82f58043b4df",
+  "run_metrics.json": "984c6b0d3bb545f72d4dcd9fbda0fc1fee9a5f34486e4ec56a41ba2b7af69816",
+  "dataset_manifest.csv": "6aff0c28ae7326b6d60f328328ba7dc64d7ca1c80af18627c5a30feb99cb54ca",
+  "external_test_per_image.csv": "05ed0d022fac6e3911dfae791e093362f52d816162d136b57aae4f6aeedac09a",
+  "checkpoint_latest.pt": "b93651851f8a95161b28385e6707f474bf8a2cd31d99771a9b9b6dfbe98932b8",
+  "full_sha256_preflight.json": "2c96fdfb579c49468b40f026d6daa81169bf34a91e1338442390f8d9a9888284"
+}

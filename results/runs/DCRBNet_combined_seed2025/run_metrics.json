@@ -1,0 +1,10 @@
+{
+  "run": "DCRBNet_combined_seed2025",
+  "seed": 2025,
+  "validation_images": 323,
+  "validation_mean_dice": 0.8351368143467397,
+  "validation_mean_iou": 0.7465918020387606,
+  "external_test_images": 196,
+  "external_mean_dice": 0.39975886772350144,
+  "external_mean_iou": 0.32342410203561484
+}

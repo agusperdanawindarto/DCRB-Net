@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "kernel": "niluhwiwiksrirahayu/dcrb-dcrbnet-combined-seed2025-ampfix-private",
+  "run": "DCRBNet_combined_seed2025",
+  "verified_files": 11,
+  "sha256_verified": true,
+  "verified_pairs": 1808,
+  "epochs": 60,
+  "best_epoch": 51,
+  "metrics": {
+    "run": "DCRBNet_combined_seed2025",
+    "seed": 2025,
+    "validation_images": 323,
+    "validation_mean_dice": 0.8351368143467397,
+    "validation_mean_iou": 0.7465918020387606,
+    "external_test_images": 196,
+    "external_mean_dice": 0.39975886772350144,
+    "external_mean_iou": 0.32342410203561484
+  },
+  "source_manifest_sha256": "bf30b3e1e63b7c2c22e8d0270cebda5839eb309be5e7542d8b28ba7df09804ee",
+  "source_notebook_sha256_verified": true,
+  "external_test_excluded_from_training_and_selection": true,
+  "cuda_amp_regression_pass": true
+}

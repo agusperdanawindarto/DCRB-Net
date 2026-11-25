@@ -1,0 +1,13 @@
+{
+  "external_test_per_image.csv": "e77ca62e93673168e4f26197a5eb700bf5e681d88475ff7763d3cedb5e4fb4fb",
+  "validation_per_image.csv": "cd011946efc62f6cfcde0ddede9ede26b8ac56c6a4eef6d8ddf3702ff96240c4",
+  "run_config.json": "2916e9f6cfef7283023717e1d0e9a08d5806dace931057f3faa5cb70fb34c4d3",
+  "run_metrics.json": "bd9602d9c750e0651f0906960d9d91dceeb23aaaf24330562e748558e230ba35",
+  "checkpoint_best.pt": "f6968f0c3daae43c5e69d286784bead85173b9c937c98aeb082e41de0752a53f",
+  "full_sha256_preflight.json": "2c96fdfb579c49468b40f026d6daa81169bf34a91e1338442390f8d9a9888284",
+  "original_source_manifest.csv": "bf30b3e1e63b7c2c22e8d0270cebda5839eb309be5e7542d8b28ba7df09804ee",
+  "history.jsonl": "bed4779abeb1329284d9e083842588e4b72ed6414759ca11789148991ac904ff",
+  "kaggle_verified_file_mapping.csv": "a6de62ff688c2b60fff53dd15a8e7755b8f1f7c5da5cb564bf5d82f58043b4df",
+  "dataset_manifest.csv": "6aff0c28ae7326b6d60f328328ba7dc64d7ca1c80af18627c5a30feb99cb54ca",
+  "checkpoint_latest.pt": "830d59a1486edf8f24d2e18108fdb426a84d997216070fc0340221f2dd76641a"
+}

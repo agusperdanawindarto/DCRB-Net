@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "kernel": "agusperdana/dcrb-unet-combined-seed123-private",
+  "run": "UNet_combined_seed123",
+  "verified_files": 11,
+  "sha256_verified": true,
+  "verified_pairs": 1808,
+  "epochs": 60,
+  "best_epoch": 57,
+  "metrics": {
+    "run": "UNet_combined_seed123",
+    "seed": 123,
+    "validation_images": 323,
+    "validation_mean_dice": 0.8078631701351935,
+    "validation_mean_iou": 0.7083931944421342,
+    "external_test_images": 196,
+    "external_mean_dice": 0.3662639132571727,
+    "external_mean_iou": 0.27960626293247204
+  },
+  "source_manifest_sha256": "bf30b3e1e63b7c2c22e8d0270cebda5839eb309be5e7542d8b28ba7df09804ee"
+}

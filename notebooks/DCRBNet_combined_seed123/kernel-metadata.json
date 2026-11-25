@@ -1,0 +1,19 @@
+{
+  "id": "niluhwiwiksrirahayu/dcrb-dcrbnet-combined-seed123-ampfix-private",
+  "title": "dcrb-dcrbnet-combined-seed123-ampfix-private",
+  "code_file": "DCRB_Kaggle_Run.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": false,
+  "machine_shape": "NvidiaTeslaT4",
+  "dataset_sources": [
+    "ipythonx/kvasirseg",
+    "doansang/cvc-clinicdb",
+    "nguyenvoquocduong/etis-laribpolypdb",
+    "agusperdana/dcrb-cvc-masks-research-private"
+  ],
+  "competition_sources": [],
+  "kernel_sources": []
+}

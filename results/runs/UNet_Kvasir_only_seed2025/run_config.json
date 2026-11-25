@@ -1,0 +1,25 @@
+{
+  "spec": {
+    "name": "UNet_Kvasir_only",
+    "architecture": "unet",
+    "sources": [
+      "Kvasir-SEG"
+    ]
+  },
+  "seed": 2025,
+  "architecture_source": "DCRB_Net_Research_Experiment_v1.ipynb",
+  "original_notebook_sha256": "65701eaf79a6daaf59e48f4da0012bc75758d1960a695b6de13549e358b79a04",
+  "image_size": 256,
+  "max_epochs": 60,
+  "max_optimizer_batches_per_epoch": 100,
+  "early_stop_patience": 10,
+  "checkpoint_every_batches": 10,
+  "dataset_manifest_sha256": "bf30b3e1e63b7c2c22e8d0270cebda5839eb309be5e7542d8b28ba7df09804ee",
+  "training_data_sources": [
+    "Kvasir-SEG"
+  ],
+  "external_test_only": [
+    "ETIS-Larib"
+  ],
+  "not_reproduced_published_baselines": true
+}

@@ -1,0 +1,10 @@
+{
+  "run": "UNet_Kvasir_only_seed42",
+  "seed": 42,
+  "validation_images": 200,
+  "validation_mean_dice": 0.7896485169093009,
+  "validation_mean_iou": 0.6864674751740765,
+  "external_test_images": 196,
+  "external_mean_dice": 0.3999552848623772,
+  "external_mean_iou": 0.3201174442078653
+}

@@ -1,0 +1,40 @@
+{
+  "status": "PASSED",
+  "source_manifest_sha256": "bf30b3e1e63b7c2c22e8d0270cebda5839eb309be5e7542d8b28ba7df09804ee",
+  "private_zip_sha256": "auto_extracted_by_kaggle",
+  "verified_pairs": 1808,
+  "source_checks": {
+    "Kvasir-SEG": {
+      "scanned_files": 2000,
+      "required_unique_hashes": 2000,
+      "matched_unique_hashes": 2000,
+      "missing_count": 0,
+      "missing_examples": []
+    },
+    "CVC-ClinicDB": {
+      "scanned_files": 612,
+      "required_unique_hashes": 612,
+      "matched_unique_hashes": 612,
+      "missing_count": 0,
+      "missing_examples": []
+    },
+    "ETIS-Larib": {
+      "scanned_files": 392,
+      "required_unique_hashes": 389,
+      "matched_unique_hashes": 389,
+      "missing_count": 0,
+      "missing_examples": []
+    }
+  },
+  "dataset_references": {
+    "Kvasir-SEG": "ipythonx/kvasirseg",
+    "CVC-ClinicDB": "doansang/cvc-clinicdb",
+    "ETIS-Larib": "nguyenvoquocduong/etis-laribpolypdb",
+    "private": "agusperdana/dcrb-cvc-masks-research-private"
+  },
+  "external_test_excluded_from_training_and_selection": true,
+  "torch": "2.11.0+cu130",
+  "cuda": "13.0",
+  "gpu": "Tesla T4",
+  "reference_notebook_sha256": "65701eaf79a6daaf59e48f4da0012bc75758d1960a695b6de13549e358b79a04"
+}

@@ -1,0 +1,10 @@
+{
+  "run": "UNet_combined_seed42",
+  "seed": 42,
+  "validation_images": 323,
+  "validation_mean_dice": 0.8057309411828725,
+  "validation_mean_iou": 0.7057547640429555,
+  "external_test_images": 196,
+  "external_mean_dice": 0.3919815750374916,
+  "external_mean_iou": 0.3095369999788009
+}

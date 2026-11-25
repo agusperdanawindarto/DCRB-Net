@@ -1,0 +1,156 @@
+{
+  "runs": {
+    "UNet_Kvasir_only": [
+      {
+        "run": "UNet_Kvasir_only_seed42",
+        "seed": 42,
+        "validation_images": 200,
+        "validation_mean_dice": 0.7896485169093009,
+        "validation_mean_iou": 0.6864674751740765,
+        "external_test_images": 196,
+        "external_mean_dice": 0.3999552848623772,
+        "external_mean_iou": 0.3201174442078653
+      },
+      {
+        "run": "UNet_Kvasir_only_seed123",
+        "seed": 123,
+        "validation_images": 200,
+        "validation_mean_dice": 0.8054987165863264,
+        "validation_mean_iou": 0.7054859677861083,
+        "external_test_images": 196,
+        "external_mean_dice": 0.3971697390550408,
+        "external_mean_iou": 0.31681123938623146
+      },
+      {
+        "run": "UNet_Kvasir_only_seed2025",
+        "seed": 2025,
+        "validation_images": 200,
+        "validation_mean_dice": 0.8032171207032568,
+        "validation_mean_iou": 0.7031801518909103,
+        "external_test_images": 196,
+        "external_mean_dice": 0.3786237775947235,
+        "external_mean_iou": 0.2960573050195077
+      }
+    ],
+    "UNet_combined": [
+      {
+        "run": "UNet_combined_seed42",
+        "seed": 42,
+        "validation_images": 323,
+        "validation_mean_dice": 0.8057309411828725,
+        "validation_mean_iou": 0.7057547640429555,
+        "external_test_images": 196,
+        "external_mean_dice": 0.3919815750374916,
+        "external_mean_iou": 0.3095369999788009
+      },
+      {
+        "run": "UNet_combined_seed123",
+        "seed": 123,
+        "validation_images": 323,
+        "validation_mean_dice": 0.8078631701351935,
+        "validation_mean_iou": 0.7083931944421342,
+        "external_test_images": 196,
+        "external_mean_dice": 0.3662639132571727,
+        "external_mean_iou": 0.27960626293247204
+      },
+      {
+        "run": "UNet_combined_seed2025",
+        "seed": 2025,
+        "validation_images": 323,
+        "validation_mean_dice": 0.8173939004024968,
+        "validation_mean_iou": 0.7207083414759174,
+        "external_test_images": 196,
+        "external_mean_dice": 0.38804331840646594,
+        "external_mean_iou": 0.30973613309421993
+      }
+    ],
+    "DCRBNet_combined": [
+      {
+        "run": "DCRBNet_combined_seed42",
+        "seed": 42,
+        "validation_images": 323,
+        "validation_mean_dice": 0.8336453079669378,
+        "validation_mean_iou": 0.7454068189407111,
+        "external_test_images": 196,
+        "external_mean_dice": 0.4703408241059565,
+        "external_mean_iou": 0.39247983255020813
+      },
+      {
+        "run": "DCRBNet_combined_seed123",
+        "seed": 123,
+        "validation_images": 323,
+        "validation_mean_dice": 0.8369064079714894,
+        "validation_mean_iou": 0.7486803192826047,
+        "external_test_images": 196,
+        "external_mean_dice": 0.40503193216749506,
+        "external_mean_iou": 0.32780189238782803
+      },
+      {
+        "run": "DCRBNet_combined_seed2025",
+        "seed": 2025,
+        "validation_images": 323,
+        "validation_mean_dice": 0.8351368143467397,
+        "validation_mean_iou": 0.7465918020387606,
+        "external_test_images": 196,
+        "external_mean_dice": 0.39975886772350144,
+        "external_mean_iou": 0.32342410203561484
+      }
+    ]
+  },
+  "aggregate": {
+    "UNet_Kvasir_only": {
+      "validation_mean_dice": {
+        "mean": 0.7994547847329614,
+        "sd": 0.008568756410088271
+      },
+      "validation_mean_iou": {
+        "mean": 0.698377864950365,
+        "sd": 0.010378932276635014
+      },
+      "external_mean_dice": {
+        "mean": 0.3919162671707138,
+        "sd": 0.011595582163352186
+      },
+      "external_mean_iou": {
+        "mean": 0.3109953295378682,
+        "sd": 0.013041900933683018
+      }
+    },
+    "UNet_combined": {
+      "validation_mean_dice": {
+        "mean": 0.8103293372401876,
+        "sd": 0.006210284983957773
+      },
+      "validation_mean_iou": {
+        "mean": 0.7116187666536691,
+        "sd": 0.007981579203376157
+      },
+      "external_mean_dice": {
+        "mean": 0.38209626890037673,
+        "sd": 0.013851898073283141
+      },
+      "external_mean_iou": {
+        "mean": 0.2996264653351643,
+        "sd": 0.017338289756575982
+      }
+    },
+    "DCRBNet_combined": {
+      "validation_mean_dice": {
+        "mean": 0.8352295100950556,
+        "sd": 0.001632524941995833
+      },
+      "validation_mean_iou": {
+        "mean": 0.7468929800873588,
+        "sd": 0.001657402270063718
+      },
+      "external_mean_dice": {
+        "mean": 0.425043874665651,
+        "sd": 0.03931680968244782
+      },
+      "external_mean_iou": {
+        "mean": 0.34790194232455035,
+        "sd": 0.03866758959154398
+      }
+    }
+  }
+}

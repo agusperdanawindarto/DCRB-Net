@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "kernel": "agusperdana/dcrb-unet-kvasir-only-seed2025-private",
+  "run": "UNet_Kvasir_only_seed2025",
+  "verified_files": 11,
+  "epochs": 60,
+  "best_epoch": 57,
+  "metrics": {
+    "run": "UNet_Kvasir_only_seed2025",
+    "seed": 2025,
+    "validation_images": 200,
+    "validation_mean_dice": 0.8032171207032568,
+    "validation_mean_iou": 0.7031801518909103,
+    "external_test_images": 196,
+    "external_mean_dice": 0.3786237775947235,
+    "external_mean_iou": 0.2960573050195077
+  },
+  "sha256_verified": true
+}

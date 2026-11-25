@@ -1,0 +1,11 @@
+.env
+.env.*
+*.key
+kaggle.json
+**/auth/
+**/private_CVC_masks/
+**/cache/
+**/__pycache__/
+*.zip
+*.tmp
+*.pt.tmp

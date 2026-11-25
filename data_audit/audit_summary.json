@@ -1,0 +1,41 @@
+{
+  "original_source_manifest_sha256": "bf30b3e1e63b7c2c22e8d0270cebda5839eb309be5e7542d8b28ba7df09804ee",
+  "source_counts": {
+    "Kvasir-SEG": 1000,
+    "CVC-ClinicDB": 612,
+    "ETIS-Larib": 196
+  },
+  "split_counts": [
+    {
+      "source": "CVC-ClinicDB",
+      "split": "train",
+      "n": 489
+    },
+    {
+      "source": "CVC-ClinicDB",
+      "split": "validation",
+      "n": 123
+    },
+    {
+      "source": "ETIS-Larib",
+      "split": "external_test",
+      "n": 196
+    },
+    {
+      "source": "Kvasir-SEG",
+      "split": "train",
+      "n": 800
+    },
+    {
+      "source": "Kvasir-SEG",
+      "split": "validation",
+      "n": 200
+    }
+  ],
+  "external_images": 196,
+  "external_unique_image_hashes": 193,
+  "external_duplicate_groups": 3,
+  "patient_or_video_group_independence_verified": false,
+  "near_duplicate_audit_complete": false,
+  "original_notebook_sha256": "65701eaf79a6daaf59e48f4da0012bc75758d1960a695b6de13549e358b79a04"
+}
